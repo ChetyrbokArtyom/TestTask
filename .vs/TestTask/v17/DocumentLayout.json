@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chete\\source\\repos\\TestTask\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F33D4EF-61BC-42AE-812D-5A9C0B7D7839}|TestTask\\TestTask.csproj|c:\\users\\chete\\source\\repos\\testtask\\testtask\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F33D4EF-61BC-42AE-812D-5A9C0B7D7839}|TestTask\\TestTask.csproj|solutionrelative:testtask\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F33D4EF-61BC-42AE-812D-5A9C0B7D7839}|TestTask\\TestTask.csproj|c:\\users\\chete\\source\\repos\\testtask\\testtask\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8F33D4EF-61BC-42AE-812D-5A9C0B7D7839}|TestTask\\TestTask.csproj|solutionrelative:testtask\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F33D4EF-61BC-42AE-812D-5A9C0B7D7839}|TestTask\\TestTask.csproj|c:\\users\\chete\\source\\repos\\testtask\\testtask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F33D4EF-61BC-42AE-812D-5A9C0B7D7839}|TestTask\\TestTask.csproj|solutionrelative:testtask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F33D4EF-61BC-42AE-812D-5A9C0B7D7839}|TestTask\\TestTask.csproj|c:\\users\\chete\\source\\repos\\testtask\\testtask\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8F33D4EF-61BC-42AE-812D-5A9C0B7D7839}|TestTask\\TestTask.csproj|solutionrelative:testtask\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F33D4EF-61BC-42AE-812D-5A9C0B7D7839}|TestTask\\TestTask.csproj|c:\\users\\chete\\source\\repos\\testtask\\testtask\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F33D4EF-61BC-42AE-812D-5A9C0B7D7839}|TestTask\\TestTask.csproj|solutionrelative:testtask\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F33D4EF-61BC-42AE-812D-5A9C0B7D7839}|TestTask\\TestTask.csproj|c:\\users\\chete\\source\\repos\\testtask\\testtask\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F33D4EF-61BC-42AE-812D-5A9C0B7D7839}|TestTask\\TestTask.csproj|solutionrelative:testtask\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F33D4EF-61BC-42AE-812D-5A9C0B7D7839}|TestTask\\TestTask.csproj|c:\\users\\chete\\source\\repos\\testtask\\testtask\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F33D4EF-61BC-42AE-812D-5A9C0B7D7839}|TestTask\\TestTask.csproj|solutionrelative:testtask\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F33D4EF-61BC-42AE-812D-5A9C0B7D7839}|TestTask\\TestTask.csproj|c:\\users\\chete\\source\\repos\\testtask\\testtask\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F33D4EF-61BC-42AE-812D-5A9C0B7D7839}|TestTask\\TestTask.csproj|solutionrelative:testtask\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F33D4EF-61BC-42AE-812D-5A9C0B7D7839}|TestTask\\TestTask.csproj|c:\\users\\chete\\source\\repos\\testtask\\testtask\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F33D4EF-61BC-42AE-812D-5A9C0B7D7839}|TestTask\\TestTask.csproj|solutionrelative:testtask\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F33D4EF-61BC-42AE-812D-5A9C0B7D7839}|TestTask\\TestTask.csproj|c:\\users\\chete\\source\\repos\\testtask\\testtask\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F33D4EF-61BC-42AE-812D-5A9C0B7D7839}|TestTask\\TestTask.csproj|solutionrelative:testtask\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F33D4EF-61BC-42AE-812D-5A9C0B7D7839}|TestTask\\TestTask.csproj|c:\\users\\chete\\source\\repos\\testtask\\testtask\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F33D4EF-61BC-42AE-812D-5A9C0B7D7839}|TestTask\\TestTask.csproj|solutionrelative:testtask\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F33D4EF-61BC-42AE-812D-5A9C0B7D7839}|TestTask\\TestTask.csproj|c:\\users\\chete\\source\\repos\\testtask\\testtask\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8F33D4EF-61BC-42AE-812D-5A9C0B7D7839}|TestTask\\TestTask.csproj|solutionrelative:testtask\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F33D4EF-61BC-42AE-812D-5A9C0B7D7839}|TestTask\\TestTask.csproj|c:\\users\\chete\\source\\repos\\testtask\\testtask\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8F33D4EF-61BC-42AE-812D-5A9C0B7D7839}|TestTask\\TestTask.csproj|solutionrelative:testtask\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\TestTask\\TestTask\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "TestTask\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\TestTask\\TestTask\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "TestTask\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T13:10:03.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\TestTask\\TestTask\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "TestTask\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\TestTask\\TestTask\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "TestTask\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T13:10:02.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\TestTask\\TestTask\\Program.cs",
+              "RelativeDocumentMoniker": "TestTask\\Program.cs",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\TestTask\\TestTask\\Program.cs",
+              "RelativeToolTip": "TestTask\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T12:23:02.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\TestTask\\TestTask\\appsettings.json",
+              "RelativeDocumentMoniker": "TestTask\\appsettings.json",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\TestTask\\TestTask\\appsettings.json",
+              "RelativeToolTip": "TestTask\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-08T13:11:32.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Style.css",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\TestTask\\TestTask\\wwwroot\\css\\Style.css",
+              "RelativeDocumentMoniker": "TestTask\\wwwroot\\css\\Style.css",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\TestTask\\TestTask\\wwwroot\\css\\Style.css",
+              "RelativeToolTip": "TestTask\\wwwroot\\css\\Style.css",
+              "ViewState": "AgIAACoDAAAAAAAAAAAAAGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-30T12:03:51.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\TestTask\\TestTask\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TestTask\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\TestTask\\TestTask\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TestTask\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAPABAAAAAAAAAAAAAAYCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T14:31:47.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\TestTask\\TestTask\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "TestTask\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\TestTask\\TestTask\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "TestTask\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T13:11:42.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\TestTask\\TestTask\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "TestTask\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\TestTask\\TestTask\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "TestTask\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T13:11:41.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\TestTask\\TestTask\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TestTask\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\TestTask\\TestTask\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TestTask\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T14:32:35.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\TestTask\\TestTask\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TestTask\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\TestTask\\TestTask\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TestTask\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T13:10:51.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\TestTask\\TestTask\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "TestTask\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\TestTask\\TestTask\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "TestTask\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T13:10:55.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\TestTask\\TestTask\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "TestTask\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\TestTask\\TestTask\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "TestTask\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-30T12:03:07.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\chete\\source\\repos\\TestTask\\TestTask\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "TestTask\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\chete\\source\\repos\\TestTask\\TestTask\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "TestTask\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-30T11:54:32.279Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

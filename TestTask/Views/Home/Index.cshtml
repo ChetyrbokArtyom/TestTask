@@ -1,0 +1,519 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<body>
+    <section class="buy-domain container py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-7 col-12">
+                <h2 class="fw-bold mb-5">КУПИТЬ ДОМЕН</h2>
+                <div class="row gy-3">
+                    <div class="col-md-6 d-flex align-items-start gap-2">
+                        <img src="images/verified.svg" alt="Verified" width="24">
+                        <span>Официальный регистратор .BY .БЕЛ</span>
+                    </div>
+                    <div class="col-md-6 d-flex align-items-start gap-2">
+                        <img src="images/user-headset.svg" alt="Support" width="24">
+                        <span>Быстрая техподдержка 24/7</span>
+                    </div>
+                    <div class="col-md-6 d-flex align-items-start gap-2">
+                        <img src="images/lock.svg" alt="Lock" width="24">
+                        <span>17 лет обеспечиваем быструю и безопасную работу сайтов</span>
+                    </div>
+                    <div class="col-md-6 d-flex align-items-start gap-2">
+                        <img src="images/Gift.svg" alt="Gift" width="24">
+                        <span>Бонусы при покупке или переносе</span>
+                    </div>
+                    <div class="col-md-6 d-flex align-items-start gap-2">
+                        <img src="images/internet.svg" alt="Internet" width="24">
+                        <span>Доступно 1000+ доменных зон</span>
+                    </div>
+                    <div class="col-md-6 d-flex align-items-start gap-2">
+                        <img src="images/sale-outline.svg" alt="Sale" width="24">
+                        <span>Скидки на домены до 94%</span>
+                    </div>
+                </div>
+                <button class="btn-primary mt-5">Выбрать домен</button>
+            </div>
+            <div class="col-lg-5 col-12 text-end mt-5 mt-lg-0">
+                <img src="images/logo.png" alt="HB.BY Promo" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-5">
+        <div class="search-container">
+            <div class="input-group">
+                <input type="text" class="form-control search-input" placeholder="Введите домен для проверки">
+                <button class="btn-primary search-btn" type="button">Проверить домен</button>
+            </div>
+        </div>
+
+        <div class="mb-4">
+            <div class="form-check">
+                <input class="form-check-input custom-checkbox" type="checkbox" id="availableOnly" checked>
+                <label class="form-check-label fw-medium" for="availableOnly">
+                    Показывать только доступные домены
+                </label>
+            </div>
+        </div>
+
+        <div class="custom-tabs">
+            <div class="custom-tab" onclick="switchTab(this, 'popular')">Популярные зоны</div>
+            <div class="custom-tab active" onclick="switchTab(this, 'all')">Все зоны</div>
+            <div class="custom-tab" onclick="switchTab(this, 'results')">Результат поиска</div>
+        </div>
+
+        <div class="content-border">
+            <div class="filter-controls">
+                <div class="filter-group">
+                    <div class="d-flex align-items-center gap-2">
+                        <span class="small">Показать:</span>
+                        <span class="filter-dropdown">все категории</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                        <span class="filter-dropdown">Цена</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                        <span class="filter-dropdown">Тип</span>
+                    </div>
+                </div>
+                <a href="#" class="reset-filter">Сбросить фильтр</a>
+            </div>
+
+            <div class="mb-5">
+                <h2 class="section-title">Беларусь</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="domain-card">
+                            <span class="domain-extension">.COM</span>
+                            <span class="domain-price">25,20 BYN</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="domain-card">
+                            <span class="domain-extension">.NET</span>
+                            <span class="domain-price">25,20 BYN</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-5">
+                <h2 class="section-title">Международные</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="domain-card">
+                            <img src="images/50proc.png" alt="50% скидка" class="discount-badge">
+                            <span class="domain-extension">.PROTECTION</span>
+                            <div class="text-end">
+                                <div class="domain-price">2 325,20 BYN</div>
+                                <div class="price-old">4 045,00 BYN</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="domain-card">
+                            <span class="domain-extension">.COM</span>
+                            <span class="domain-price">25,20 BYN</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="domain-card">
+                            <img src="images/5proc.png" alt="5% скидка" class="discount-badge">
+                            <span class="domain-extension">.INFO</span>
+                            <div class="text-end">
+                                <div class="domain-price">25,20 BYN</div>
+                                <div class="small text-muted">25,20 BYN</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="domain-card">
+                            <span class="domain-extension">.MOBI</span>
+                            <span class="domain-price">25,20 BYN</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="domain-card">
+                            <span class="domain-extension">.BIZ</span>
+                            <span class="domain-price">25,20 BYN</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-5">
+                <h2 class="section-title">Россия</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="domain-card">
+                            <img src="images/50proc.png" alt="50% скидка" class="discount-badge">
+                            <span class="domain-extension">.PROTECTION</span>
+                            <div class="text-end">
+                                <div class="domain-price">2 325,20 BYN</div>
+                                <div class="price-old">4 045,00 BYN</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="domain-card">
+                            <span class="domain-extension">.COM</span>
+                            <span class="domain-price">25,20 BYN</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="domain-card">
+                            <img src="images/5proc.png" alt="5% скидка" class="discount-badge">
+                            <span class="domain-extension">.INFO</span>
+                            <div class="text-end">
+                                <div class="domain-price">25,20 BYN</div>
+                                <div class="small text-muted">25,20 BYN</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="domain-card">
+                            <span class="domain-extension">.MOBI</span>
+                            <span class="domain-price">25,20 BYN</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="domain-card">
+                            <span class="domain-extension">.BIZ</span>
+                            <span class="domain-price">25,20 BYN</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container py-5">
+        <h1 class="mb-4">Получайте <span class="custom-title">бонусы</span> при покупке домена</h1>
+        <div class="row mb-5 g-4">
+            <div class="col-12 col-md-5">
+                <div class="block h-100 d-flex flex-column justify-content-between">
+                    <h5 class="custom-title">Свидетельство о регистрации домена</h5>
+                    <p>Свидетельство, подтверждающее регистрацию доменного имени, может служить официальным доказательством прав на управление доменом и использоваться в судебной практике и во взаимоотношениях с государственными структурами.</p>
+                    <img src="images/Certificate.png" class="img-fluid rounded mx-auto d-block pt-4" alt="Свидетельство">
+                </div>
+            </div>
+            <div class="col-12 col-md-7">
+                <div class="block h-100 d-flex flex-column justify-content-between">
+                    <img src="images/websiteСard.png" class="img-fluid rounded mx-auto d-block pb-4" alt="Сайт-визитка">
+                    <h5 class="custom-title pb-3">Сайт-визитка для Вашего домена</h5>
+                    <p>Заполните простую форму и получите бесплатно сайт-визитку сразу после регистрации домена. Укажите контакты, добавьте ссылки на социальные сети и продвигайте свой проект в интернете!</p>
+                    <p class="pt-2">Сделайте сайт самостоятельно уже сегодня. Не потратив ни копейки на дизайнеров и программистов. 200+ шаблонов для любой сферы.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-5 g-4">
+            <div class="col-12 col-md-4">
+                <div class="block h-100 d-flex flex-column justify-content-between">
+                    <h5 class="custom-title">Промокод 300 BYN на рекламу</h5>
+                    <p>За оплаченный заказ на сайте HB.BY каждый пользователь получает промокод на 300 BYN для первой рекламной кампании в «Яндекс Директ».</p>
+                    <img src="images/Promocode.png" class="img-fluid rounded mx-auto d-block pt-4" alt="Промокод">
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="block h-100 d-flex flex-column justify-content-between">
+                    <img src="images/SSLCertificate.png" class="img-fluid rounded mx-auto d-block pb-4" alt="SSL-сертификат">
+                    <h5 class="custom-title">Бесплатный SSL-сертификат</h5>
+                    <p>Повышайте доверие пользователей сайта и увеличивайте конверсию с помощью включенного SSL-сертификата Lets-encrypt.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="block h-100 d-flex flex-column justify-content-between">
+                    <h5 class="custom-title">Онлайн-платежи на Вашем сайте</h5>
+                    <p>Наши специалисты бесплатно подключат для Вас различные приёмы оплаты, такие как ЕРИП, E-POS, интернет-эквайринг, в рамках сервиса «Экспресс Платежи».</p>
+                    <img src="images/Online_Pay.png" class="img-fluid rounded mx-auto d-block pt-4" alt="Онлайн-платежи">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container why-us-section py-5">
+        <h2>Почему мы?</h2>
+        <div class="row">
+            <div class="col-12 col-lg-7">
+                <div class="block">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="why-us-item">
+                                <span class="why-us-title">№1 в Беларуси</span>
+                                <span class="why-us-text">по количеству предлагаемых доменных зон</span>
+                            </div>
+                            <div class="why-us-item">
+                                <span class="why-us-title">Резидент</span>
+                                <p class="why-us-text">Парка высоких технологий</p>
+                            </div>
+                            <div class="why-us-item">
+                                <span class="why-us-title">Победитель конкурса</span>
+                                <p class="why-us-text">«Перспективные белорусские бренды 2024»</p>
+                            </div>
+                            <div class="why-us-item">
+                                <span class="why-us-title">Более 10 000</span>
+                                <p class="why-us-text">довольных клиентов</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="why-us-item">
+                                <span class="why-us-title">Официальный регистратор</span>
+                                <p class="why-us-text">доменов .BY и .БЕЛ</p>
+                            </div>
+                            <div class="why-us-item">
+                                <span class="why-us-title">Лидер</span>
+                                <p class="why-us-text">по количеству видов SSL-сертификатов</p>
+                            </div>
+                            <div class="why-us-item">
+                                <span class="why-us-title">17 лет</span>
+                                <p class="why-us-text">обеспечиваем быструю и безопасную работу сайтов</p>
+                            </div>
+                            <div class="why-us-item">
+                                <span class="why-us-title">Рекомендуемый партнёр</span>
+                                <p class="why-us-text">1С-Битрикс</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-5">
+                <img src="images/Team.png" alt="Команда" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <section class="companies-section py-5">
+        <div class="container">
+            <h2 class="companies-title">Тысячи компаний выбирают HB.BY</h2>
+            <div class="text-center">
+                <img src="images/Companies.jpg " alt="Логотипы компаний-клиентов HB.BY" class="companies-logos">
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title text-center text-md-start">Частые вопросы</h2>
+
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        <span class="faq-icon">
+                            <img src="Images/plus.svg" alt="Открыть" width="20" height="20">
+                        </span>
+                        <span>Что такое домен?</span>
+                    </button>
+                    <div class="faq-answer">
+                        Домен — это уникальное имя сайта в интернете, которое позволяет пользователям легко найти ваш ресурс. Например, google.com или yandex.ru. Домен состоит из имени и доменной зоны, разделенных точкой.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        <span class="faq-icon">
+                            <img src="Images/plus.svg" alt="Открыть" width="20" height="20">
+                        </span>
+                        <span>Какую доменную зону лучше выбрать?</span>
+                    </button>
+                    <div class="faq-answer">
+                        Выбор доменной зоны зависит от целей вашего сайта. Для международных проектов подойдет .com, для белорусских компаний — .by, для российских — .ru. Также популярны .org для некоммерческих организаций и .net для технических проектов.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        <span class="faq-icon">
+                            <img src="Images/plus.svg" alt="Открыть" width="20" height="20">
+                        </span>
+                        <span>Что делать если домен уже занят?</span>
+                    </button>
+                    <div class="faq-answer">
+                        Если желаемый домен занят, попробуйте изменить доменную зону (.com на .by), добавить префикс или суффикс к названию, использовать синонимы или аббревиатуры. Также можно обратиться к текущему владельцу с предложением о покупке.
+                    </div>
+                </div>
+
+                <div class="faq-item active">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        <span class="faq-icon">
+                            <img src="Images/minus.svg" alt="Закрыть" width="20" height="20">
+                        </span>
+                        <span>Как купить домен?</span>
+                    </button>
+                    <div class="faq-answer show">
+                        <div class="mb-3">
+                            <strong>Шаг 1.</strong> На текущей странице воспользуйтесь функцией проверки доступность домена.
+                        </div>
+                        <div class="mb-3">
+                            <strong>Шаг 2.</strong> Наберите в строке поиска требуемое имя и нажмите кнопку «Проверить домен». По результатам проверки Вы узнаете, свободно ли выбранное Вами имя или нет.
+                        </div>
+                        <div class="mb-3">
+                            <strong>Шаг 3.</strong> Если доменное имя свободно, то напротив результата проверки нажмите на кнопку «Заказать сейчас» и перейдите на страницу оформления заказа.
+                        </div>
+                        <div class="mb-0">
+                            <strong>Шаг 4.</strong> Укажите срок регистрации, предпочитаемый способ оплаты, пройдите регистрацию (для новых пользователей) или войдите под своими учетными данными, укажите запрашиваемые реквизиты и завершите заказ.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        <span class="faq-icon">
+                            <img src="Images/plus.svg" alt="Открыть" width="20" height="20">
+                        </span>
+                        <span>Что такое конструктор сайтов?</span>
+                    </button>
+                    <div class="faq-answer">
+                        Конструктор сайтов — это инструмент, который позволяет создавать веб-сайты без знания программирования. Вы можете выбрать готовый шаблон, настроить дизайн, добавить контент и получить полноценный сайт за несколько часов.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="domain-banner">
+                <div class="banner-text">
+                    <h1 class="banner-title display-5 mb-3">
+                        У вас есть домен<br />
+                        <span class="domain-highlight">.BY</span> или <span class="domain-highlight">.БЕЛ</span>?
+                    </h1>
+                    <p class="banner-subtitle fs-4 mb-2">Перенесите его к нам</p>
+                    <p class="banner-cta display-6 mb-4">БЕСПЛАТНО!</p>
+                    <button class="btn-primary btn-transfer py-3 px-4 fs-6 rounded-2">Перенести домен</button>
+                </div>
+                <div class="banner-image">
+                    <img src="images/Woman.png" alt="Девушка" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="testimonials-header">
+                <h2 class="section-title">Отзывы клиентов</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <h3>КПУ «Обольский керамический завод»</h3>
+                            <p class="client-position">директор Скоморохов Н.Г</p>
+                            <p class="testimonial-date">27 февраля 2024</p>
+                        </div>
+                        <div class="testimonial-body">
+                            <p>Первое впечатление от HB.by - серьезность и профессионализм. Процесс регистрации домена в зоне .BY прошел без единого сбоя. Работа поддержки заслуживает особой похвалы: оперативные и точные ответы на каждый запрос. Это тот уровень обслуживания, которого я ожидаю от регистратора.</p>
+                            <a href="#" class="read-more">Читать полностью</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <h3>КПУ «Обольский керамический завод»</h3>
+                            <p class="client-position">директор Скоморохов Н.Г</p>
+                            <p class="testimonial-date">27 февраля 2024</p>
+                        </div>
+                        <div class="testimonial-body">
+                            <p>Первое впечатление от HB.by - серьезность и профессионализм. Процесс регистрации домена в зоне .BY прошел без единого сбоя. Работа поддержки заслуживает особой похвалы: оперативные и точные ответы на каждый запрос.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <h3>КПУ «Обольский керамический завод»</h3>
+                            <p class="client-position">директор Скоморохов Н.Г</p>
+                            <p class="testimonial-date">27 февраля 2024</p>
+                        </div>
+                        <div class="testimonial-body">
+                            <p>Первое впечатление от HB.by - серьезность и профессионализм. Процесс регистрации домена в зоне .BY прошел без единого сбоя. Работа поддержки заслуживает особой похвалы: оперативные и точные ответы на каждый запрос.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonials-footer">
+                <div class="navigation-buttons">
+                    <button class="nav-btn prev">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 18L9 12L15 6" stroke="#0D99FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <button class="nav-btn next">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 18L15 12L9 6" stroke="#0D99FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+                <span class="all-reviews">Посмотреть <a href="#"><span>все отзывы</span></a></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-card">
+                <div class="row align-items-center g-4 g-lg-5">
+                    <div class="col-lg-7 mb-5 mb-lg-0">
+                        <h1 class="contact-heading">Не можете выбрать<br>подходящий домен?</h1>
+
+                        <p class="contact-description">
+                            Свяжитесь с нами удобным для Вас способом<br>
+                            и мы поможем Вам
+                        </p>
+
+                        <a href="mailto:support@hb.by" class="contact-email">support@hb.by</a>
+
+                        <div class="mb-4">
+                            <div class="contact-phone">
+                                <span class="phone-label">МТС</span>
+                                <span class="phone-number">+375 (29) 552-00-92</span>
+                            </div>
+                            <div class="contact-phone">
+                                <span class="phone-label">A1</span>
+                                <span class="phone-number">+375 (44) 552-00-77</span>
+                            </div>
+                            <div class="contact-phone">
+                                <span class="phone-label">Город</span>
+                                <span class="phone-number">+375 (17) 552-00-77</span>
+                            </div>
+                        </div>
+
+                        <div class="social-icons">
+                            <img src="images/Telegram_logo.svg" alt="telegram" width="32" height="32">
+                            <img src="images/Whatsup_logo.svg" alt="whatsapp" width="32" height="32">
+                            <img src="images/Viber_logo.svg" alt="Viber" width="32" height="32">
+                        </div>
+
+                        <a href="#" class="btn-primary">Оставить заявку</a>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <img src="images/Man.png" alt="Представитель службы поддержки" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="breadcrumb-section">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb custom-breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="/">Главная</a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                        Купить домен
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+</body>
+
